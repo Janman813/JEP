@@ -69,6 +69,11 @@ img {
     float: left;
 }
 
+/*URL link color*/ 
+a{
+    color:fuchsia;
+}
+
 /*Tester on images inside div*/
 .tester{
     width: 300px;
