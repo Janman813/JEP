@@ -1,0 +1,77 @@
+/*The background of the webpages color*/
+body {
+    background-color: #3d5a80;
+}
+
+/*Adding things into the "p" element more then adding more CSS and other Elements and Attributes helped with organizational purposes*/
+p {
+    background-color: #e0fbfc;
+    color: #ee6c4d;
+    font-family: arial, sans-serif;
+    font-size: 120%;
+    /*With a border it give the paragraph more of a pop*/
+    border-style: solid;
+    border-width: 6px;
+    border-color: #98c1d9;
+    /*Adding the padding to the side allowed me to bring my paragraohs out from huggin the lines*/
+    padding-left: 10px;
+    padding-right: 12px;
+    padding-top: 5px;
+}
+
+/*First paragraphs indentation*/
+div.a {
+    text-indent: 40px;
+    float: right;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+/*Navigational Bar*/
+.topnav {
+    overflow: hidden;
+    background-color: #293241;
+}
+
+.topnav a {
+    float: left;
+    color: #98c1d9;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #e0fbfc;
+    color: black;
+}
+
+.topnav a.split {
+    float: right;
+    background-color: #98c1d9;
+    color: white;
+}
+
+.topnav a.active {
+    background-color: #ee6c4d;
+    color: white;
+}
+
+/*Image CSS height and width is enbedded code within HTML*/
+img {
+    padding-top: 30px;
+    padding-right: 30px;
+    float: left;
+}
+
+/*Tester on images inside div*/
+.tester{
+    width: 300px;
+  padding: 50px;
+  margin: 20px;
+}
