@@ -1,18 +1,19 @@
 /*The background of the webpages color*/
 body {
-    background-color: #3d5a80;
+    background-color: #84a98c;
 }
 
 /*Adding things into the "p" element more then adding more CSS and other Elements and Attributes helped with organizational purposes*/
 p {
-    background-color: #e0fbfc;
-    color: #ee6c4d;
+    background-color: #cad2c5;
+    color: #2f3e46;
     font-family: arial, sans-serif;
     font-size: 120%;
     /*With a border it give the paragraph more of a pop*/
     border-style: solid;
     border-width: 6px;
-    border-color: #98c1d9;
+    border-color: #2f3e46;
+    float:right;
     /*Adding the padding to the side allowed me to bring my paragraohs out from huggin the lines*/
     padding-left: 10px;
     padding-right: 12px;
@@ -20,9 +21,8 @@ p {
 }
 
 /*First paragraphs indentation*/
-div.a {
-    text-indent: 40px;
-    float: right;
+.indent {
+    text-indent: 30px;
 }
 
 .container {
@@ -34,7 +34,7 @@ div.a {
 /*Navigational Bar*/
 .topnav {
     overflow: hidden;
-    background-color: #293241;
+    background-color: #2f3e46;
 }
 
 .topnav a {
@@ -47,19 +47,19 @@ div.a {
 }
 
 .topnav a:hover {
-    background-color: #e0fbfc;
-    color: black;
+    background-color: #52796f;
+    color: white;
 }
 
 .topnav a.split {
     float: right;
-    background-color: #98c1d9;
+    background-color: #52796f;
     color: white;
 }
 
 .topnav a.active {
-    background-color: #ee6c4d;
-    color: white;
+    background-color: #cad2c5;
+    color: black;
 }
 
 /*Image CSS height and width is enbedded code within HTML*/
