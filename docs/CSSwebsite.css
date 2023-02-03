@@ -5,17 +5,17 @@ body {
 
 /*Adding things into the "p" element more then adding more CSS and other Elements and Attributes helped with organizational purposes*/
 p {
-    background-color: #cad2c5;
     color: #2f3e46;
     font-family: arial, sans-serif;
     font-size: 120%;
     text-align: left;
     word-wrap: break-word;
+    overflow: hidden;
     /*With a border it give the paragraph more of a pop*/
-    border-style: solid;
+  /*border-style: solid;
     border-width: 6px;
     border-color: #2f3e46;
-    overflow: hidden;
+    overflow: hidden;*/
     /*Adding the padding to the side allowed me to bring my paragraohs out from huggin the lines*/
     padding-left: 10px;
     padding-right: 12px;
