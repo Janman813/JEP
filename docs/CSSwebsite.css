@@ -2,7 +2,39 @@
 body {
     background-color: #84a98c;
 }
+h2{
+    color: #444444;
+}
 
+h3{
+    color: #444444;
+}
+
+dl{
+    color: #2f3e46;
+    font-family: arial, sans-serif;
+}
+
+/*Scroll Bar: Even though these commands are unkown to the system it still allows you to use them to edit*/
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #84a98c; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
 /*Adding things into the "p" element more then adding more CSS and other Elements and Attributes helped with organizational purposes*/
 p {
     color: #2f3e46;
