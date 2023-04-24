@@ -3,6 +3,20 @@
     <head>
         <link rel="stylesheet" href="CSSwebsite.css" />
         <title>Main</title>
+        <script>
+    window.addEventListener("load", function() {
+      const now = new Date();
+      const currentHour = now.getHours();
+
+      if (currentHour >= 18 || currentHour < 0) {
+        document.body.style.backgroundColor = "purple";
+      } else if (currentHour >= 0 && currentHour < 12) {
+        document.body.style.backgroundColor = "blue";
+      } else if (currentHour >= 12 && currentHour < 18) {
+        document.body.style.backgroundColor = "orange";
+      }
+    });
+  </script>
     </head>
     <body>
         <div class="topnav">
@@ -26,5 +40,17 @@
             experienced. This internship is being done under the owner of FEED and how he can reach
             out and spread the companies name. I will be working on his LinkedIn platform and
             hopefully help him expand to more places.</p>
+        <table border="5">
+            <tr>
+                <th>game design</th>
+                <th>Animation</th>
+            </tr>
+            <tr>
+                <td></td>
+                <th></th>
+                <td></td>
+                <th></th>
+            </tr>
+        </table>
     </body>
 </html>
