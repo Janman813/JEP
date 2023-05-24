@@ -15,6 +15,10 @@ dl{
     font-family: arial, sans-serif;
 }
 
+table{
+    border: 10px;
+}
+
 /*Scroll Bar: Even though these commands are unkown to the system it still allows you to use them to edit*/
 /* width */
 ::-webkit-scrollbar {
