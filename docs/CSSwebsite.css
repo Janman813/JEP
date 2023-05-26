@@ -17,6 +17,7 @@ dl{
 
 table{
     border: 10px;
+    border-color: #2f3e46;
 }
 
 /*Scroll Bar: Even though these commands are unkown to the system it still allows you to use them to edit*/
