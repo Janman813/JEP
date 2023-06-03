@@ -75,7 +75,6 @@ p {
 .topnav {
     overflow: hidden;
     background-color: #2f3e46;
-    background-color: #2f3e46;
 }
 
 .topnav a {
@@ -113,7 +112,7 @@ p {
   font-size: 16px;  
   border: none;
   outline: none;
-  color: #2f3e46;
+  color: #98c1d9;
   padding: 14px 16px;
   background-color: #2f3e46;
   font-family: inherit;
