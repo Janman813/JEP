@@ -114,16 +114,19 @@ p {
   outline: none;
   color: #2f3e46;
   padding: 14px 16px;
-  background-color: inherit;
+  background-color: #2f3e46;
   font-family: inherit;
   margin: 0;
 }
 
-.navbar a:hover, .dropdown:hover .dropbtn {
+.dropdown:hover .dropbtn {
   background-color: #52796f;
   color: white;
 }
 
+navbar a:hover{
+    color: #98c1d9;
+}
 .dropdown-content {
   display: none;
   position: absolute;
