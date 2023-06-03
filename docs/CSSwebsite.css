@@ -112,7 +112,7 @@ p {
   font-size: 16px;  
   border: none;
   outline: none;
-  color: #98c1d9;
+  color: #2f3e46;
   padding: 14px 16px;
   background-color: inherit;
   font-family: inherit;
@@ -168,7 +168,7 @@ a{
 
 /*Tester on images inside div*/
 .tester{
-    width: 300px;
+  width: 300px;
   padding: 50px;
   margin: 20px;
 }
