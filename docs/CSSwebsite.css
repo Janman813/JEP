@@ -121,6 +121,7 @@ p {
 
 .navbar a:hover, .dropdown:hover .dropbtn {
   background-color: #52796f;
+  color: white;
 }
 
 .dropdown-content {
