@@ -182,7 +182,7 @@ a{
 .blog {
   font-family: Arial;
   padding: 20px;
-  background: #f1f1f1;
+  background: #84a98c;
 }
 
 /* Header/Blog Title */
@@ -190,7 +190,7 @@ a{
   padding: 30px;
   font-size: 40px;
   text-align: center;
-  background: white;
+  background: #D5E7B8;
 }
 
 /* Create two unequal columns that floats next to each other */
@@ -209,14 +209,14 @@ a{
 
 /* Fake image */
 .fakeimg {
-  background-color: #aaa;
+  background-color: #ECEBC9;
   width: 100%;
   padding: 20px;
 }
 
 /* Add a card effect for articles */
 .card {
-  background-color: white;
+  background-color: #ECEBC9;
   padding: 20px;
   margin-top: 20px;
 }
@@ -232,7 +232,7 @@ a{
 .footer {
   padding: 20px;
   text-align: center;
-  background: #ddd;
+  background: #D5E7B8;
   margin-top: 20px;
 }
 
