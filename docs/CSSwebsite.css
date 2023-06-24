@@ -41,6 +41,7 @@ table{
 ::-webkit-scrollbar-thumb:hover {
   background: #555; 
 }
+
 /*Adding things into the "p" element more then adding more CSS and other Elements and Attributes helped with organizational purposes*/
 p {
     color: #2f3e46;
@@ -241,4 +242,5 @@ a{
   .leftcolumn, .rightcolumn {
     width: 100%;
     padding: 0;
+  }
   }
