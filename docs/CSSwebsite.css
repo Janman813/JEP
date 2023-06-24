@@ -198,6 +198,8 @@ a{
     font-size: 35px;
     background: #CAAD7E;
     text-align: center;
+    border: black;
+    border-style: groove;
 }
 
 /* Create two unequal columns that floats next to each other */
