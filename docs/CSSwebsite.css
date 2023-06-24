@@ -179,6 +179,12 @@ a{
 
 /* testing out for blog page this is the CSS*/
 
+.blog {
+  font-family: Arial;
+  padding: 20px;
+  background: #f1f1f1;
+}
+
 /* Header/Blog Title */
 .header {
   padding: 30px;
