@@ -2,20 +2,20 @@
 body {
     background-color: #84a98c;
 }
-h2{
+h2 {
     color: #444444;
 }
 
-h3{
+h3 {
     color: #444444;
 }
 
-dl{
+dl {
     color: #2f3e46;
     font-family: arial, sans-serif;
 }
 
-table{
+table {
     border: 10px;
     border-color: #2f3e46;
     border-style: solid;
@@ -24,22 +24,22 @@ table{
 /*Scroll Bar: Even though these commands are unkown to the system it still allows you to use them to edit*/
 /* width */
 ::-webkit-scrollbar {
-  width: 10px;
+    width: 10px;
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #84a98c; 
+    background: #84a98c;
 }
- 
+
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #555555; 
+    background: #555555;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #555; 
+    background: #555;
 }
 
 /*Adding things into the "p" element more then adding more CSS and other Elements and Attributes helped with organizational purposes*/
@@ -51,7 +51,7 @@ p {
     word-wrap: break-word;
     overflow: hidden;
     /*With a border it give the paragraph more of a pop*/
-  /*border-style: solid;
+    /*border-style: solid;
     border-width: 6px;
     border-color: #2f3e46;
     overflow: hidden;*/
@@ -105,53 +105,53 @@ p {
 }
 /* When adding a drop down menu to the Navbar */
 .dropdown {
-  float: left;
-  overflow: hidden;
+    float: left;
+    overflow: hidden;
 }
 
 .dropdown .dropbtn {
-  font-size: 16px;  
-  border: none;
-  outline: none;
-  color: #98c1d9;
-  padding: 14px 16px;
-  background-color: #2f3e46;
-  font-family: inherit;
-  margin: 0;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: #98c1d9;
+    padding: 14px 16px;
+    background-color: #2f3e46;
+    font-family: inherit;
+    margin: 0;
 }
 
 .dropdown:hover .dropbtn {
-  background-color: #52796f;
-  color: white;
+    background-color: #52796f;
+    color: white;
 }
 
-navbar a:hover{
+navbar a:hover {
     color: #98c1d9;
 }
 .dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
 }
 
 .dropdown-content a {
-  float: none;
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
 }
 
 .dropdown-content a:hover {
-  background-color: #52796f;
+    background-color: #52796f;
 }
 
 .dropdown:hover .dropdown-content {
-  display: block;
+    display: block;
 }
 
 /*Image CSS height and width is enbedded code within HTML*/
@@ -162,93 +162,99 @@ img {
     margin: 0px 0px 15px 20px;
 }
 
-.img-container{
+.img-container {
     text-align: center;
     display: block;
 }
-/*URL link color*/ 
-a{
+/*URL link color*/
+a {
     color: #e1e6e1;
 }
 
 /*Tester on images inside div*/
-.tester{
-  width: 300px;
-  padding: 50px;
-  margin: 20px;
+.tester {
+    width: 300px;
+    padding: 50px;
+    margin: 20px;
 }
 
 /* testing out for blog page this is the CSS*/
 
 .blog {
-  font-family: Arial;
-  padding: 20px;
-  background: #84a98c;
+    font-family: Arial;
+    padding: 20px;
+    background: #84a98c;
 }
 
 /* Header/Blog Title */
 .header {
-  padding: 30px;
-  font-size: 40px;
-  text-align: center;
-  background: #D5E7B8;
+    padding: 30px;
+    font-size: 40px;
+    text-align: center;
+    background: #D5E7B8;
 }
 
-.pra{
-    font-size: 35px;
+.pra {
+    font-size: 25px;
     background: #CAAD7E;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
     border: black;
     border-style: groove;
+    padding-right: 70px;
+    padding-left: 70px;
 }
 
 /* Create two unequal columns that floats next to each other */
 /* Left column */
 .leftcolumn {
-  float: left;
-  width: 75%;
+    float: right;
+    width: 75%;
 }
 
 /* Right column */
 .rightcolumn {
-  float: left;
-  width: 25%;
-  padding-left: 20px;
+    float: left;
+    width: 25%;
+    padding-left: 20px;
 }
 
 /* Fake image */
 .fakeimg {
-  background-color: #ECEBC9;
-  width: 100%;
-  padding: 20px;
+    background-color: #ECEBC9;
+    width: 100%;
+    padding: 20px;
 }
 
 /* Add a card effect for articles */
 .card {
-  background-color: #ECEBC9;
-  padding: 20px;
-  margin-top: 20px;
+    background-color: #ECEBC9;
+    padding: 20px;
+    margin-top: 20px;
 }
 
 /* Clear floats after the columns */
 .row:after {
-  content: "";
-  display: table;
-  clear: both;
+    content: "";
+    display: table;
+    clear: both;
 }
 
 /* Footer */
 .footer {
-  padding: 20px;
-  text-align: center;
-  background: #D5E7B8;
-  margin-top: 20px;
+    padding: 20px;
+    text-align: center;
+    background: #D5E7B8;
+    margin-top: 20px;
 }
 
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 800px) {
-  .leftcolumn, .rightcolumn {
-    width: 100%;
-    padding: 0;
-  }
-  }
+@media screen and (max-width : 800px) {
+    .leftcolumn,
+    .rightcolumn {
+        width: 100%;
+        padding: 0;
+    }
+}
