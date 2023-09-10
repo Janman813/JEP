@@ -1,4 +1,28 @@
+/*Scroll Bar: Even though these commands are unkown to the system it still allows you to use them to edit*/
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #84a98c;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #555555;
+}
+
+/* Handle on hover */
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
 /*The background of the webpages color*/
+
 body {
     background-color: #84a98c;
 }
@@ -21,28 +45,25 @@ table {
     border-style: solid;
 }
 
-/*Scroll Bar: Even though these commands are unkown to the system it still allows you to use them to edit*/
-/* width */
-::-webkit-scrollbar {
-    width: 10px;
+/* The side navigation menu */
+.sideBar{
+  margin: 0;
+  padding-left: 20px;
+  width: 200px;
+  background-color: #b7b7a4;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
 }
 
-/* Track */
-::-webkit-scrollbar-track {
-    background: #84a98c;
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-    background: #555555;
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-    background: #555;
+.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
 }
 
 /*Adding things into the "p" element more then adding more CSS and other Elements and Attributes helped with organizational purposes*/
+
 p {
     color: #2f3e46;
     font-family: arial, sans-serif;
@@ -62,6 +83,7 @@ p {
 }
 
 /*First paragraphs indentation*/
+
 .indent1 {
     text-indent: 30px;
 }
@@ -73,6 +95,7 @@ p {
 }
 
 /*Navigational Bar*/
+
 .topnav {
     overflow: hidden;
     background-color: #2f3e46;
@@ -103,7 +126,9 @@ p {
     background-color: #cad2c5;
     color: black;
 }
+
 /* When adding a drop down menu to the Navbar */
+
 .dropdown {
     float: left;
     overflow: hidden;
@@ -128,6 +153,7 @@ p {
 navbar a:hover {
     color: #98c1d9;
 }
+
 .dropdown-content {
     display: none;
     position: absolute;
@@ -155,6 +181,7 @@ navbar a:hover {
 }
 
 /*Image CSS height and width is enbedded code within HTML*/
+
 img {
     padding-top: 30px;
     padding-right: 30px;
@@ -166,12 +193,15 @@ img {
     text-align: center;
     display: block;
 }
+
 /*URL link color*/
+
 a {
     color: #e1e6e1;
 }
 
 /*Tester on images inside div*/
+
 .tester {
     width: 300px;
     padding: 50px;
@@ -187,6 +217,7 @@ a {
 }
 
 /* Header/Blog Title */
+
 .header {
     padding: 30px;
     font-size: 40px;
@@ -208,13 +239,16 @@ a {
 }
 
 /* Create two unequal columns that floats next to each other */
+
 /* Left column */
+
 .leftcolumn {
     float: right;
     width: 75%;
 }
 
 /* Right column */
+
 .rightcolumn {
     float: left;
     width: 25%;
@@ -222,6 +256,7 @@ a {
 }
 
 /* Fake image */
+
 .fakeimg {
     background-color: #ECEBC9;
     width: 100%;
@@ -229,6 +264,7 @@ a {
 }
 
 /* Add a card effect for articles */
+
 .card {
     background-color: #ECEBC9;
     padding: 20px;
@@ -236,6 +272,7 @@ a {
 }
 
 /* Clear floats after the columns */
+
 .row:after {
     content: "";
     display: table;
@@ -243,6 +280,7 @@ a {
 }
 
 /* Footer */
+
 .footer {
     padding: 20px;
     text-align: center;
