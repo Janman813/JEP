@@ -71,7 +71,7 @@ p {
     text-align: left;
     word-wrap: break-word;
     overflow: hidden;
-    /*With a border it give the paragraph more of a pop*/
+    /*With a border it gave the paragraph more of a pop*/
     /*border-style: solid;
     border-width: 6px;
     border-color: #2f3e46;
@@ -189,9 +189,45 @@ img {
     margin: 0px 0px 15px 20px;
 }
 
+figcaption{
+    display: inline- block;
+}
+
+.box1{
+    
+}
+
+/*  */
+/*.under {
+    text-align: justify;
+    width: [width of img];
+}
+
+.under img {
+    display: block;
+    margin: 0 auto;
+}*/
+
+.img1{
+    vertical-align: text-bottom;
+}
+
 .img-container {
     text-align: center;
     display: block;
+}
+
+/*Using a container can help you keep cetain things together without them moving around to a random place.*/
+.container {
+  position: relative;
+  text-align: center;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 /*URL link color*/
