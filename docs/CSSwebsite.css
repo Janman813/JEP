@@ -193,23 +193,12 @@ figcaption{
     display: inline- block;
 }
 
-.box1{
-    
-}
-
-/*  */
-/*.under {
-    text-align: justify;
-    width: [width of img];
-}
-
-.under img {
-    display: block;
-    margin: 0 auto;
-}*/
-
 .img1{
     vertical-align: text-bottom;
+}
+
+.img2{
+    float: left;
 }
 
 .img-container {
