@@ -114,6 +114,7 @@ p {
 .topnav a:hover {
     background-color: #52796f;
     color: white;
+    overflow: hidden;
 }
 
 .topnav a.split {
