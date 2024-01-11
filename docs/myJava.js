@@ -1,3 +1,5 @@
+//This code shows time based on greeting
+
 var today = new Date();
 var hourNow = today.getHours();
 var greeting;
